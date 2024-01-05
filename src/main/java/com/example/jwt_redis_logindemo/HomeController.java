@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class HomeController {
 
 
-    @GetMapping("/")
+    @GetMapping("/")//zz
     public String index() {
         return "forward:/index.jsp";
     }
